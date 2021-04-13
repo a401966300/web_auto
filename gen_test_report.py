@@ -2,7 +2,7 @@
 import unittest
 from HTMLTestRunner import HTMLTestRunner
 # 定义一个测试报告的文件
-report_file = './test_report.html'
+report_file = 'test_report.html'
 
 # 创建一个套件
 suite = unittest.TestLoader().discover(start_dir='.',pattern='test*.py')
